@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "116df1f8edfc588648616689fadafa0c",
+    "hash": "f6ed0efcd7a48cf9bf32cd83557fab2a",
     "packages": [
         {
             "name": "afragen/github-updater",
@@ -46,16 +46,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.21",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+                "reference": "f8c20b427de1cfe7a28a015c1640ce4e4eef1e33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "url": "https://api.github.com/repos/composer/installers/zipball/f8c20b427de1cfe7a28a015c1640ce4e4eef1e33",
+                "reference": "f8c20b427de1cfe7a28a015c1640ce4e4eef1e33",
                 "shasum": ""
             },
             "replace": {
@@ -137,7 +137,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-03-26 16:11:30"
         },
         {
             "name": "wp-sync-db/wp-sync-db",
@@ -176,7 +176,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wp-sync-db/wp-sync-db": 20
+        "wp-sync-db/wp-sync-db": 20,
+        "composer/installers": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

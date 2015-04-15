@@ -2,6 +2,7 @@
     "minimum-stability" : "dev",
     "require": {
         "afragen/github-updater": "~4.3",
-        "wp-sync-db/wp-sync-db": "dev-master"
+        "wp-sync-db/wp-sync-db": "dev-master",
+        "composer/installers": "~1.0@dev"
     }
 }
