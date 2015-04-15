@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "95535dd5a810c9eff13acb9c023a8793",
+    "hash": "116df1f8edfc588648616689fadafa0c",
     "packages": [
         {
             "name": "afragen/github-updater",
@@ -138,12 +138,46 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "4d7856a404264e47af75853fafc1dff54b264eec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/4d7856a404264e47af75853fafc1dff54b264eec",
+                "reference": "4d7856a404264e47af75853fafc1dff54b264eec",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2015-02-11 00:51:57"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
